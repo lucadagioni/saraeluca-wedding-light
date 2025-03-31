@@ -1015,7 +1015,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             }; if (!f._fbq) f._fbq = n;
             n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
             t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
@@ -1142,8 +1142,6 @@
             src: url('https://rsvp-online.it/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
         }
     </style>
-    <link rel="icon" href="https://rsvp-online.it/wp-content/uploads/2021/03/rsvp2.svg" sizes="32x32" />
-    <link rel="icon" href="https://rsvp-online.it/wp-content/uploads/2021/03/rsvp2.svg" sizes="192x192" />
     <link rel="apple-touch-icon" href="https://rsvp-online.it/wp-content/uploads/2021/03/rsvp2.svg" />
     <meta name="msapplication-TileImage" content="https://rsvp-online.it/wp-content/uploads/2021/03/rsvp2.svg" />
     <style id="wp-custom-css">
@@ -1308,7 +1306,9 @@
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <style>
-        [hidden] { display: none !important; }
+        [hidden] {
+            display: none !important;
+        }
     </style>
 </head>
 
@@ -1380,26 +1380,28 @@
                             data-id="401e2d7" data-element_type="widget"
                             data-settings="{&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
                             data-widget_type="theme-post-content.default">
-                            <div style="margin-top: -30px !important;" class="elementor-container elementor-column-gap-default"="elementor-widget-container">
+                            <div style="margin-top: -30px !important;"
+                                class="elementor-container elementor-column-gap-default"="elementor-widget-container">
                                 <div data-elementor-type="wp-post" data-elementor-id="8213"
                                     class="elementor elementor-8213" data-elementor-post-type="post">
-                                    <section
-                                        style="transform: rotate(180deg); height: 420px;"
+                                    <section style="transform: rotate(180deg); height: 420px;"
                                         class="elementor-section elementor-top-section elementor-element elementor-element-970eede elementor-section-height-min-height animated-slow elementor-section-full_width elementor-section-items-top elementor-section-height-default elementor-invisible"
                                         data-id="970eede" data-element_type="section"
                                         data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:800,&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
                                         <div class="elementor-container elementor-column-gap-default">
-                                            <div style="margin-top: 30px;" class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-22f2764"
+                                            <div style="margin-top: 30px;"
+                                                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-22f2764"
                                                 data-id="22f2764" data-element_type="column"
                                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div style="transform: rotate(180deg); padding-bottom: 0px !important; padding-top: 0px !important;" class="elementor-widget-wrap elementor-element-populated">
+                                                <div style="transform: rotate(180deg); padding-bottom: 0px !important; padding-top: 0px !important;"
+                                                    class="elementor-widget-wrap elementor-element-populated">
                                                     <div class="elementor-element elementor-element-9aec945 animated-slow elementor-hidden-desktop ob-harakiri-inherit elementor-invisible ob-has-background-overlay elementor-widget elementor-widget-heading"
                                                         data-id="9aec945" data-element_type="widget"
                                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
                                                         data-widget_type="heading.default"
                                                         style="display: flex; justify-content: center; align-items: center; width: 100%; text-align: center;">
                                                         <div style="transform: scale(1); width: 100%;">
-                                                            <h2 class="elementor-heading-title elementor-size-default" 
+                                                            <h2 class="elementor-heading-title elementor-size-default"
                                                                 style="white-space: nowrap; font-size: min(40vw, 70px);">
                                                                 Sara &amp;&nbsp;Luca
                                                             </h2>
@@ -1478,11 +1480,19 @@
                                                         data-id="385df19" data-element_type="widget"
                                                         data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
                                                         data-widget_type="text-editor.default">
-                                                        <div style="margin-bottom: -46px;" class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default" style="color:#597D84;font-family: Carattere, sans-serif;font-size: 2rem;font-size:3rem">Santuario Opera<br>di Santa Rita</h2>
+                                                        <div style="margin-bottom: -46px;"
+                                                            class="elementor-widget-container">
+                                                            <h2 class="elementor-heading-title elementor-size-default"
+                                                                style="color:#597D84;font-family: Carattere, sans-serif;font-size: 2rem;font-size:3rem">
+                                                                Santuario Opera<br>di Santa Rita</h2>
                                                             <!--<p style="font-weight: bold; font-family: Carattere, sans-serif;font-size: 2rem">Santuario Opera<br>di Santa Rita </p>-->
                                                             <br>
-                                                            <p> – Roccaporena, Cascia –</p><br><br>
+                                                            <a href="https://maps.app.goo.gl/tbtD1evwowKB44Ct7">
+                                                                <p> – Roccaporena, Cascia –</p>
+                                                            </a>
+
+                                                            
+                                                            <br><br>
                                                         </div>
                                                     </div>
 
@@ -1492,7 +1502,10 @@
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <p class="elementor-heading-title elementor-size-default">
-                                                                Ci troveremo avvolti dal profumo delle rose e dalla serenità del paesino natale di Santa Rita, punto di partenza del cammino del nostro matrimonio, custodito da Dio.
+                                                                Ci troveremo avvolti dal profumo delle rose e dalla
+                                                                serenità del paesino natale di Santa Rita, punto di
+                                                                partenza del cammino del nostro matrimonio, custodito da
+                                                                Dio.
                                                                 <br><br>
                                                             </p>
                                                         </div>
@@ -1501,25 +1514,26 @@
                                             </div>
                                         </div>
                                     </section>
-                                    
+
                                     <section
                                         class="elementor-section elementor-top-section elementor-element elementor-element-f0f5717 elementor-section-height-min-height elementor-section-items-top elementor-section-content-top elementor-section-boxed elementor-section-height-default"
                                         data-id="f0f5717" data-element_type="section"
                                         data-settings="{&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
-                                        <div 
-                                        style="min-height: 0px !important;" class="elementor-container elementor-column-gap-default">
+                                        <div style="min-height: 0px !important;"
+                                            class="elementor-container elementor-column-gap-default">
                                             <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a4d1953 animated-slow elementor-invisible"
                                                 data-id="a4d1953" data-element_type="column"
                                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div style="padding-top: 0px !important" class="elementor-widget-wrap elementor-element-populated">
+                                                <div style="padding-top: 0px !important"
+                                                    class="elementor-widget-wrap elementor-element-populated">
                                                     <div class="elementor-element elementor-element-23f10ae ob-has-background-overlay elementor-widget elementor-widget-image"
                                                         data-id="23f10ae" data-element_type="widget"
                                                         data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
                                                         data-widget_type="image.default">
-                                                        <div style="transform: scale(1.4);" class="elementor-widget-container">
+                                                        <div style="transform: scale(1.4);"
+                                                            class="elementor-widget-container">
                                                             <img fetchpriority="high" decoding="async" width="498"
-                                                                height="427"
-                                                                src="assets/rose-fichi.png"
+                                                                height="427" src="assets/rose-fichi.png"
                                                                 class="attachment-full size-full wp-image-8218" alt=""
                                                                 srcset="assets/rose-fichi.png 498w, assets/rose-fichi.png 300w"
                                                                 sizes="(max-width: 498px) 100vw, 498px" />
@@ -1557,12 +1571,16 @@
                                                                 </span>
                                                             </div>
                                                         </div>
-                                                        <div class="elementor-element elementor-element-4897010 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading ob-harakiri" data-id="4897010" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default">
-                                                                ore 19.00</h2>
+                                                        <div class="elementor-element elementor-element-4897010 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading ob-harakiri"
+                                                            data-id="4897010" data-element_type="widget"
+                                                            data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
+                                                            data-widget_type="heading.default">
+                                                            <div class="elementor-widget-container">
+                                                                <h2
+                                                                    class="elementor-heading-title elementor-size-default">
+                                                                    ore 19.00</h2>
+                                                            </div>
                                                         </div>
-                                                    </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-32f234b animated-slow ob-harakiri-inherit elementor-invisible ob-has-background-overlay elementor-widget elementor-widget-heading"
                                                         data-id="32f234b" data-element_type="widget"
@@ -1589,7 +1607,10 @@
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <p class="elementor-heading-title elementor-size-default">
-                                                                Immersi nel verde abbraccio delle colline circostanti, ci innamoreremo dei sapori e degli aromi dell'Umbria, emozionandoci con note romantiche e spensierate sotto il cielo stellato.
+                                                                Immersi nel verde abbraccio delle colline circostanti,
+                                                                ci innamoreremo dei sapori dell'Umbria,
+                                                                emozionandoci con note romantiche e spensierate sotto il
+                                                                cielo stellato.
                                                                 <br><br>
                                                             </p>
                                                         </div>
@@ -1608,7 +1629,8 @@
                                             <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a4d1953 animated-slow elementor-invisible"
                                                 data-id="a4d1953" data-element_type="column"
                                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div style="margin-top: -35px !important" class="elementor-widget-wrap elementor-element-populated">
+                                                <div style="margin-top: -35px !important"
+                                                    class="elementor-widget-wrap elementor-element-populated">
                                                     <div class="elementor-element elementor-element-23f10ae ob-has-background-overlay elementor-widget elementor-widget-image"
                                                         data-id="23f10ae" data-element_type="widget"
                                                         data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
@@ -1707,23 +1729,29 @@
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <p class="elementor-heading-title elementor-size-default">
-                                                                Vi preghiamo di rispondere alle semplici domande seguenti, soprattutto se avete dubbi o necessità particolari.
+                                                                Ti preghiamo di rispondere alle seguenti domande, soprattutto se hai dubbi o necessità
+                                                                particolari.
                                                                 <br><br>
-                                                                <a href="https://saravittori.typeform.com/to/RFXjdjiz" style="color: #597D84;">
+                                                                <a href="https://saravittori.typeform.com/to/RFXjdjiz"
+                                                                    style="color: #597D84;">
                                                                     <h3>Vai al questionario</h3>
                                                                 </a>
-                                                                <span class="elementor-heading-title elementor-size-default">(tempo di risposta stimato 3 minuti)</span>
+                                                                <span
+                                                                    class="elementor-heading-title elementor-size-default">(tempo
+                                                                    di risposta stimato 2 minuti)</span>
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div hidden class="elementor-element elementor-element-78ed633 ob-has-background-overlay elementor-widget elementor-widget-toggle"
+                                                    <div hidden
+                                                        class="elementor-element elementor-element-78ed633 ob-has-background-overlay elementor-widget elementor-widget-toggle"
                                                         data-id="78ed633" data-element_type="widget"
                                                         data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
                                                         data-widget_type="toggle.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-toggle">
                                                                 <div class="elementor-toggle-item">
-                                                                    <div id="elementor-tab-title-1261" style="text-align: center; margin: 0 auto"
+                                                                    <div id="elementor-tab-title-1261"
+                                                                        style="text-align: center; margin: 0 auto"
                                                                         class="elementor-tab-title" data-tab="1"
                                                                         role="button"
                                                                         aria-controls="elementor-tab-content-1261"
@@ -1731,12 +1759,11 @@
                                                                         <span
                                                                             class="elementor-toggle-icon elementor-toggle-icon-left"
                                                                             aria-hidden="true">
-                                                                            <span
-                                                                                class="elementor-toggle-icon-closed">
+                                                                            <span class="elementor-toggle-icon-closed">
 
                                                                                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"><path d="M11 14v8H7a3 3 0 0 1-3-3v-4a1 1 0 0 1 1-1h6zm8 0a1 1 0 0 1 1 1v4a3 3 0 0 1-3 3h-4v-8h6zM16.5 2a3.5 3.5 0 0 1 3.163 5H20a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-7V7h-2v5H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h.337A3.486 3.486 0 0 1 4 5.5C4 3.567 5.567 2 7.483 2c1.755-.03 3.312 1.092 4.381 2.934l.136.243c1.033-1.914 2.56-3.114 4.291-3.175L16.5 2zm-9 2a1.5 1.5 0 0 0 0 3h3.143C9.902 5.095 8.694 3.98 7.5 4zm8.983 0c-1.18-.02-2.385 1.096-3.126 3H16.5a1.5 1.5 0 1 0-.017-3z"/></svg> -->
 
-                                                                                </span>
+                                                                            </span>
                                                                             <span
                                                                                 class="elementor-toggle-icon-opened"></span>
                                                                         </span>
@@ -1750,7 +1777,8 @@
                                                                         aria-labelledby="elementor-tab-title-1261">
                                                                         <p style="text-align: center;">
                                                                             <strong>IBAN:</strong>
-                                                                            IT36G36772223000EM001802879</p>
+                                                                            IT36G36772223000EM001802879
+                                                                        </p>
                                                                         <p style="text-align: center;">
                                                                             <strong>Intestato a:</strong>
                                                                             Luca Dagioni
@@ -1799,8 +1827,11 @@
                                                                 Se è vostro desiderio farci un regalo, il nostro sogno
                                                                 più grande è quello di viaggiare e scoprire nuovi posti.
                                                             </p>-->
-                                                            <p class="elementor-heading-title elementor-size-default">Poter festeggiare insieme il nostro nuovo inizio è già un grande dono!<br>
-                                                            Qualsiasi altro pensiero sarà per noi prezioso e accolto con gratitudine.
+                                                            <p class="elementor-heading-title elementor-size-default">
+                                                                Poter festeggiare insieme il nostro nuovo inizio è già
+                                                                un grande dono!<br>
+                                                                Qualsiasi altro pensiero sarà per noi prezioso e accolto
+                                                                con gratitudine.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1811,7 +1842,8 @@
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-toggle">
                                                                 <div class="elementor-toggle-item">
-                                                                    <div id="elementor-tab-title-1261" style="text-align: center; margin: 0 auto"
+                                                                    <div id="elementor-tab-title-1261"
+                                                                        style="text-align: center; margin: 0 auto"
                                                                         class="elementor-tab-title" data-tab="1"
                                                                         role="button"
                                                                         aria-controls="elementor-tab-content-1261"
@@ -1819,19 +1851,17 @@
                                                                         <span
                                                                             class="elementor-toggle-icon elementor-toggle-icon-left"
                                                                             aria-hidden="true">
-                                                                            <span
-                                                                                class="elementor-toggle-icon-closed">
+                                                                            <span class="elementor-toggle-icon-closed">
 
                                                                                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"><path d="M11 14v8H7a3 3 0 0 1-3-3v-4a1 1 0 0 1 1-1h6zm8 0a1 1 0 0 1 1 1v4a3 3 0 0 1-3 3h-4v-8h6zM16.5 2a3.5 3.5 0 0 1 3.163 5H20a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-7V7h-2v5H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h.337A3.486 3.486 0 0 1 4 5.5C4 3.567 5.567 2 7.483 2c1.755-.03 3.312 1.092 4.381 2.934l.136.243c1.033-1.914 2.56-3.114 4.291-3.175L16.5 2zm-9 2a1.5 1.5 0 0 0 0 3h3.143C9.902 5.095 8.694 3.98 7.5 4zm8.983 0c-1.18-.02-2.385 1.096-3.126 3H16.5a1.5 1.5 0 1 0-.017-3z"/></svg> -->
 
-                                                                                </span>
+                                                                            </span>
                                                                             <span
                                                                                 class="elementor-toggle-icon-opened"></span>
                                                                         </span>
-                                                                        <a class="elementor-toggle-title"
-                                                                            tabindex="0">
+                                                                        <a class="elementor-toggle-title" tabindex="0">
                                                                             <h3>Vai al regalo</h3>
-                                                                            </a>
+                                                                        </a>
                                                                     </div>
 
                                                                     <div id="elementor-tab-content-1261"
@@ -1946,14 +1976,14 @@
                                                             <h2 class="elementor-heading-title elementor-size-default">
                                                                 <!--Søren Kierkegaard-->
                                                                 2 Corinzi, 9, 6-7
-                                                                </h2>
+                                                            </h2>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </section>
-                                    
+
                                     <section
                                         class="elementor-section elementor-top-section elementor-element elementor-element-f0f5717 elementor-section-height-min-height elementor-section-items-top elementor-section-content-top elementor-section-boxed elementor-section-height-default"
                                         data-id="f0f5717" data-element_type="section"
@@ -1962,7 +1992,8 @@
                                             <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a4d1953 animated-slow elementor-invisible"
                                                 data-id="a4d1953" data-element_type="column"
                                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div style="margin-top: -35px !important" class="elementor-widget-wrap elementor-element-populated">
+                                                <div style="margin-top: -35px !important"
+                                                    class="elementor-widget-wrap elementor-element-populated">
                                                     <div class="elementor-element elementor-element-de7cd0b animated-slow ob-harakiri-inherit elementor-invisible ob-has-background-overlay elementor-widget elementor-widget-heading"
                                                         data-id="de7cd0b" data-element_type="widget"
                                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
@@ -1982,15 +2013,21 @@
                                                         </div>
                                                     </div>
 
-                                                    <div style="padding: 0px 15px 0px 15px" class="elementor-element elementor-element-1eb9f75 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading"
+                                                    <div style="padding: 0px 15px 0px 15px"
+                                                        class="elementor-element elementor-element-1eb9f75 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading"
                                                         data-id="1eb9f75" data-element_type="widget"
                                                         data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <p class="elementor-heading-title elementor-size-default">
-                                                                <b>Non c'è!</b> 
-                                                                <br>Il matrimonio ha un tema <b>country chic</b>, quindi se il clima sarà dalla nostra parte ceneremo all'aperto in giardino. 
-                                                                <br>Liberi di decidere se voler sfoggiare a tutti i costi un tacco a spillo o se portare qualcosa per coprirvi se il tempo fosse un po' più rigido di quanto ci si aspetterebbe in piena estate.
+                                                                <b>Non c'è!</b>
+                                                                <br>Il matrimonio ha un tema <b>country chic</b>, quindi
+                                                                se il clima sarà dalla nostra parte ceneremo all'aperto
+                                                                in giardino.
+                                                                <br>A te decidere se voler sfoggiare a tutti i
+                                                                costi un tacco a spillo o se portare qualcosa per
+                                                                coprirti se il tempo fosse un po' più rigido di quanto
+                                                                ci si aspetterebbe in piena estate.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -2167,17 +2204,18 @@
     <script src="https://rsvp-online.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.27.5"
         id="elementor-frontend-js"></script>
     <script id="elementor-frontend-js-after">
-        "use strict"; !function (e, t) { e(t).on("elementor/frontend/init", (function () { var t, i = elementorModules.frontend.handlers.Base; t = i.extend({ onInit: function () { i.prototype.onInit.apply(this, arguments), this.isHarakiri() && (this.$element.addClass("ob-harakiri"), "clip" === this.getElementSettings("_ob_harakiri_text_clip") && this.updateCSS("add")) }, isHarakiri: function () { return "yes" === this.getElementSettings("_ob_use_harakiri") }, onElementChange: function (e) { "_ob_harakiri_writing_mode" === e && ("inherit" !== this.getElementSettings("_ob_harakiri_writing_mode") ? this.$element.addClass("ob-harakiri") : this.$element.removeClass("ob-harakiri")), "_ob_harakiri_text_clip" === e && ("clip" === this.getElementSettings("_ob_harakiri_text_clip") ? this.updateCSS("add") : "" === this.getElementSettings("_ob_harakiri_text_clip") && this.updateCSS("remove")) }, updateCSS: function (e) { "add" === e && this.$element.find(".elementor-heading-title").css("background-clip", "text").css("-webkit-text-fill-color", "transparent"), "remove" === e && this.$element.find(".elementor-heading-title").css("background-clip", "unset").css("-webkit-text-fill-color", "unset") } }); var n = { "heading.default": t, "text-editor.default": t }; e.each(n, (function (e, t) { elementorFrontend.hooks.addAction("frontend/element_ready/" + e, (function (e) { elementorFrontend.elementsHandler.addHandler(t, { $element: e }) })) })) }(jQuery, window);
+        "use strict"; !function (e, t) {
+            e(t).on("elementor/frontend/init", (function () { var t, i = elementorModules.frontend.handlers.Base; t = i.extend({ onInit: function () { i.prototype.onInit.apply(this, arguments), this.isHarakiri() && (this.$element.addClass("ob-harakiri"), "clip" === this.getElementSettings("_ob_harakiri_text_clip") && this.updateCSS("add")) }, isHarakiri: function () { return "yes" === this.getElementSettings("_ob_use_harakiri") }, onElementChange: function (e) { "_ob_harakiri_writing_mode" === e && ("inherit" !== this.getElementSettings("_ob_harakiri_writing_mode") ? this.$element.addClass("ob-harakiri") : this.$element.removeClass("ob-harakiri")), "_ob_harakiri_text_clip" === e && ("clip" === this.getElementSettings("_ob_harakiri_text_clip") ? this.updateCSS("add") : "" === this.getElementSettings("_ob_harakiri_text_clip") && this.updateCSS("remove")) }, updateCSS: function (e) { "add" === e && this.$element.find(".elementor-heading-title").css("background-clip", "text").css("-webkit-text-fill-color", "transparent"), "remove" === e && this.$element.find(".elementor-heading-title").css("background-clip", "unset").css("-webkit-text-fill-color", "unset") } }); var n = { "heading.default": t, "text-editor.default": t }; e.each(n, (function (e, t) { elementorFrontend.hooks.addAction("frontend/element_ready/" + e, (function (e) { elementorFrontend.elementsHandler.addHandler(t, { $element: e }) })) })) }(jQuery, window);
     </script>
     <script src="https://rsvp-online.it/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.27.4"
         id="pro-elements-handlers-js"></script>
     <script>
-        (function () {
-            var link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = 'https://rsvp-online.it/wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/swiper.min.css';
-            document.head.appendChild(link);
-        })();
+            (function () {
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = 'https://rsvp-online.it/wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/swiper.min.css';
+                document.head.appendChild(link);
+            })();
     </script>
 </body>
 
