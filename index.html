@@ -1267,6 +1267,37 @@
             display: none !important;
         }
     </style>
+    <style>
+        /* ... existing styles ... */
+        
+        html, body {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .elementor-section-wrap {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        .elementor-container {
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        @media screen and (max-width: 767px) {
+            .elementor-section.elementor-section-boxed > .elementor-container {
+                max-width: 100% !important;
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+        }
+    </style>
 </head>
 
 <body
