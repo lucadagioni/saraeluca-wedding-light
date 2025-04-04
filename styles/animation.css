@@ -1,0 +1,13 @@
+/* Classe base per gli elementi da animare */
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    will-change: opacity, transform;
+  }
+  
+  /* Classe che verrà aggiunta tramite JavaScript quando l'elemento è visibile */
+  .reveal-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
