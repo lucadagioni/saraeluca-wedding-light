@@ -1230,11 +1230,150 @@
             }
         }
     </style>
+    <style>
+        @media screen and (min-width: 768px) {
+            .main-wrapper {
+                max-width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 0 0 20px #0001;
+                border-radius: 18px;
+                background: #fff;
+                padding-left: 32px;
+                padding-right: 32px;
+                text-align: center;
+            }
+            .main-wrapper .elementor-section-wrap,
+            .main-wrapper .elementor-container,
+            .main-wrapper .elementor-section.elementor-section-stretched,
+            .main-wrapper .elementor-section.elementor-section-full_width {
+                max-width: 100% !important;
+                width: 100% !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .main-wrapper img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .main-wrapper h1,
+            .main-wrapper h2,
+            .main-wrapper h3,
+            .main-wrapper h4,
+            .main-wrapper h5,
+            .main-wrapper h6,
+            .main-wrapper p {
+                word-break: break-word;
+                max-width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+          .main-wrapper,
+          .main-wrapper .elementor-section,
+          .main-wrapper .elementor-container,
+          .main-wrapper .elementor-column,
+          .main-wrapper .elementor-widget-wrap,
+          .main-wrapper .elementor-widget,
+          .main-wrapper .elementor-heading-title,
+          .main-wrapper .elementor-widget-container {
+            text-align: center !important;
+          }
+        }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+          .main-wrapper .elementor-container,
+          .main-wrapper .elementor-widget-wrap,
+          .main-wrapper .elementor-section {
+            justify-content: center !important;
+            align-items: center !important;
+          }
+        }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+          .main-wrapper img {
+            display: block;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+        }
+    </style>
+    <style>
+    @media screen and (min-width: 768px) {
+      .main-wrapper * {
+        text-align: center !important;
+        box-sizing: border-box;
+      }
+      .main-wrapper .elementor-container,
+      .main-wrapper .elementor-widget-wrap,
+      .main-wrapper .elementor-section,
+      .main-wrapper .elementor-row,
+      .main-wrapper .elementor-column {
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+      }
+      .main-wrapper img {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 100% !important;
+        height: auto !important;
+      }
+    }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+          .main-wrapper .elementor-section.elementor-section-stretched {
+            left: 0 !important;
+            right: 0 !important;
+            width: 100% !important;
+          }
+        }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+            /* ... altre regole ... */
+            .elementor-section.elementor-element-96efbdf {
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                flex-direction: column !important;
+                text-align: center !important;
+            }
+            .elementor-section.elementor-element-96efbdf .elementor-widget-wrap,
+            .elementor-section.elementor-element-96efbdf .elementor-widget-container,
+            .elementor-section.elementor-element-96efbdf .elementor-button-wrapper {
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                flex-direction: column !important;
+                text-align: center !important;
+            }
+            .elementor-section.elementor-element-96efbdf a.elementor-button {
+                margin-left: auto !important;
+                margin-right: auto !important;
+                display: inline-block !important;
+            }
+        }
+    </style>
 </head>
 
 <body
     class="post-template-default single single-post postid-8213 single-format-standard wp-embed-responsive theme-hello-elementor woocommerce-no-js theme-default elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8213 elementor-page-495">
-
+    <div class="main-wrapper">
     <div data-elementor-type="single-post" data-elementor-id="495"
         class="elementor elementor-495 elementor-location-single post-8213 post type-post status-publish format-standard hentry category-template-base"
         data-elementor-post-type="elementor_library">
@@ -1372,11 +1511,13 @@
                                                             </h2>
                                                             <!--<p style="font-weight: bold; font-family: Carattere, sans-serif;font-size: 2rem">Santuario Opera<br>di Santa Rita </p>-->
                                                             <br>
-                                                            <a style="color: #5B5B5F; display: flex; align-items: center; justify-content: center; gap: 5px;" 
-                                                               href="https://maps.app.goo.gl/tbtD1evwowKB44Ct7">                                                            
-                                                                <img src="assets/locator1.svg" width="30" height="30">
-                                                                <p style="margin: 0; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; font-size: 15px;">ROCCAPORENA, CASCIA</p>
-                                                            </a>
+                                                            <div style="display: flex; justify-content: center;">
+                                                                <a style="color: #5B5B5F; display: flex; align-items: center; justify-content: center; gap: 5px;" 
+                                                                href="https://maps.app.goo.gl/tbtD1evwowKB44Ct7">                                                            
+                                                                    <img src="assets/locator1.svg" width="30" height="30">
+                                                                    <p style="margin: 0; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; font-size: 15px;">ROCCAPORENA, CASCIA</p>
+                                                                </a>
+                                                            </div>
                                                             <br><br>
                                                         </div>
                                                     </div>
@@ -1465,44 +1606,6 @@
                                             </div>
                                         </div>
                                     </section>
-
-                                    <section hidden
-                                        class="elementor-section elementor-top-section elementor-element elementor-element-443ddd4 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="443ddd4" data-element_type="section"
-                                        data-settings="{&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fabd629"
-                                                data-id="fabd629" data-element_type="column"
-                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-918c1e5 elementor-position-left elementor-vertical-align-middle ob-has-background-overlay elementor-widget elementor-widget-image-box"
-                                                        data-id="918c1e5" data-element_type="widget"
-                                                        data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
-                                                        data-widget_type="image-box.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-image-box-wrapper">
-                                                                <figure class="elementor-image-box-img"><img
-                                                                        loading="lazy" decoding="async" width="118"
-                                                                        height="135"
-                                                                        src="https://rsvp-online.it/wp-content/uploads/2021/03/Risorsa-3@2x.png"
-                                                                        class="attachment-full size-full wp-image-409"
-                                                                        alt="" /></figure>
-                                                                <div class="elementor-image-box-content">
-                                                                    <h3 class="elementor-image-box-title">Regalo o lista nozze</h3>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e32c6b1"
-                                                data-id="e32c6b1" data-element_type="column"
-                                                data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
                                     <section style="padding-top: 0px; padding-bottom: 0px;"
                                         class="due elementor-section elementor-top-section elementor-element elementor-element-644a458 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                         data-id="644a458" data-element_type="section"
@@ -1550,7 +1653,7 @@
                                                         data-id="385df19" data-element_type="widget"
                                                         data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
                                                         data-widget_type="text-editor.default">
-                                                        <div style="margin-bottom: -46px;"
+                                                        <div style="margin-bottom: -26px; display: flex; justify-content: center;"
                                                             class="elementor-widget-container">
                                                             <a style="color: #5B5B5F; display: flex; align-items: center; justify-content: center; gap: 5px;" 
                                                                href="https://www.twitch.tv/VickySarax7">                                                            
@@ -2008,45 +2111,6 @@
                                             </div>
                                         </div>
                                     </section>
-                                    <section hidden
-                                        class="elementor-section elementor-top-section elementor-element elementor-element-eb30587 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="eb30587" data-element_type="section"
-                                        data-settings="{&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ec713f9"
-                                                data-id="ec713f9" data-element_type="column"
-                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-4363c88 elementor-position-left elementor-vertical-align-middle ob-has-background-overlay elementor-widget elementor-widget-image-box"
-                                                        data-id="4363c88" data-element_type="widget"
-                                                        data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
-                                                        data-widget_type="image-box.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-image-box-wrapper">
-                                                                <figure class="elementor-image-box-img"><img
-                                                                        decoding="async" width="147" height="147"
-                                                                        src="https://rsvp-online.it/wp-content/uploads/2021/03/Page-1@2x.png"
-                                                                        class="attachment-full size-full wp-image-408"
-                                                                        alt=""
-                                                                        srcset="https://rsvp-online.it/wp-content/uploads/2021/03/Page-1@2x.png 147w, https://rsvp-online.it/wp-content/uploads/2021/03/Page-1@2x-100x100.png 100w"
-                                                                        sizes="(max-width: 147px) 100vw, 147px" />
-                                                                </figure>
-                                                                <div class="elementor-image-box-content">
-                                                                    <h3 class="elementor-image-box-title">Citazione</h3>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7e4859a"
-                                                data-id="7e4859a" data-element_type="column"
-                                                data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
                                     <section
                                         class="elementor-section elementor-top-section elementor-element elementor-element-c1c3867 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
                                         data-id="c1c3867" data-element_type="section"
@@ -2105,36 +2169,7 @@
                 </div>
             </div>
         </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-96efbdf elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="96efbdf" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;bottom&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;sticky_on&quot;:[&quot;widescreen&quot;,&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-20c7bea"
-                    data-id="20c7bea" data-element_type="column"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                    <div hidden class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-6c24ae4 elementor-align-center elementor-mobile-align-center ob-has-background-overlay elementor-widget elementor-widget-button"
-                            data-id="6c24ae4" data-element_type="widget"
-                            data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
-                            data-widget_type="button.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="https://rsvp-online.it/blue-leaves/">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-icon">
-                                                <i aria-hidden="true" class="far fa-edit"></i> </span>
-                                            <span class="elementor-button-text">Scegli questo invito</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    </div>
     </div>
     <script>
         function setHeroHeight() {
