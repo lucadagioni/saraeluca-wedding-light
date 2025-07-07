@@ -1255,7 +1255,7 @@
                                 class="elementor-container elementor-column-gap-default"="elementor-widget-container">
                                 <div data-elementor-type="wp-post" data-elementor-id="8213"
                                     class="elementor elementor-8213" data-elementor-post-type="post">
-                                    <section style="transform: rotate(180deg); height: 420px;"
+                                    <section id="section-hero" style="transform: rotate(180deg); height: 720px;"
                                         class="elementor-section elementor-top-section elementor-element elementor-element-970eede elementor-section-height-min-height animated-slow elementor-section-full_width elementor-section-items-top elementor-section-height-default elementor-invisible"
                                         data-id="970eede" data-element_type="section"
                                         data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:800,&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
@@ -2136,6 +2136,18 @@
             </div>
         </section>
     </div>
+    <script>
+        function setHeroHeight() {
+          var section = document.getElementById('section-hero');
+          if (window.innerWidth <= 767) {
+            section.style.height = '420px';
+          } else {
+            section.style.height = '720px';
+          }
+        }
+        window.addEventListener('resize', setHeroHeight);
+        window.addEventListener('DOMContentLoaded', setHeroHeight);
+    </script>
     <script>
         const lazyloadRunObserver = () => {
             const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
